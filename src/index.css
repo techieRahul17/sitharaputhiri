@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500&family=Dancing+Script:wght@600&display=swap');
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-dancing {
+  font-family: 'Dancing Script', cursive;
+}
+
+
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary: #ffb6c1;
+  --color-secondary: #fce4ec;
+  --color-accent: #d81b60;
+  --color-lavender: #e1bee7;
+  --color-cream: #fff8f2;
+
+  --font-playfair: "Playfair Display", serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-dancing: "Dancing Script", cursive;
+
+  --animate-spin-slow: spin 3s linear infinite;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-blob: blob 7s infinite;
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes blob {
+    0% {
+      transform: translate(0px, 0px) scale(1);
+    }
+
+    33% {
+      transform: translate(30px, -50px) scale(1.1);
+    }
+
+    66% {
+      transform: translate(-20px, 20px) scale(0.9);
+    }
+
+    100% {
+      transform: translate(0px, 0px) scale(1);
+    }
+  }
+}
+
+/* Backward compatibility for component variables */
+:root {
+  --primary: var(--color-primary);
+  --secondary: var(--color-secondary);
+  --accent: var(--color-accent);
+  --lavender: var(--color-lavender);
+  --cream: var(--color-cream);
+  --text: #4a4a4a;
+  --glass: rgba(255, 255, 255, 0.4);
+  --glass-border: rgba(255, 255, 255, 0.6);
+  --shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+}
