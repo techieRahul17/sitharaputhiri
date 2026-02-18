@@ -1,16 +1,21 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
+import img1 from '../assets/images/img1.jpeg';
+import img2 from '../assets/images/img2.jpeg';
+import img3 from '../assets/images/img3.jpeg';
+import img4 from '../assets/images/img4.jpeg';
+import photos from '../assets/images/photos.jpeg';
+import photos2 from '../assets/images/photos2.jpeg';
 gsap.registerPlugin(ScrollTrigger);
 
 const products = [
-    { id: 1, title: 'Postcard Doodles', price: '₹85', img: 'https://placehold.co/400x500/pink/white?text=Postcard+1', type: 'postcard' },
-    { id: 2, title: 'Couple Doodles', price: 'Custom', img: 'https://placehold.co/400x600/lavender/white?text=Couple+Art', type: 'custom' },
-    { id: 3, title: 'Landscape', price: '₹85', img: 'https://placehold.co/400x300/pink/white?text=Landscape', type: 'postcard' },
-    { id: 4, title: 'Bookmark Style', price: 'Coming Soon', img: 'https://placehold.co/300x700/pink/white?text=Bookmark', type: 'bookmark' },
-    { id: 5, title: 'Abstract Pink', price: '₹85', img: 'https://placehold.co/400x400/lavender/white?text=Abstract', type: 'postcard' },
-    { id: 6, title: 'Floral', price: '₹85', img: 'https://placehold.co/400x550/pink/white?text=Floral', type: 'postcard' },
+    { id: 1, title: 'Postcard Doodles', price: '₹85', img: img1, type: 'postcard' },
+    { id: 2, title: 'Couple Doodles', price: 'Custom', img: img2, type: 'custom' },
+    { id: 3, title: 'Landscape', price: '₹85', img: img3, type: 'postcard' },
+    { id: 4, title: 'Bookmark Style', price: 'Coming Soon', img: img4, type: 'bookmark' },
+    { id: 5, title: 'Abstract Pink', price: '₹85', img: photos, type: 'postcard' },
+    { id: 6, title: 'Floral', price: '₹85', img: photos2, type: 'postcard' },
 ];
 
 const Gallery: React.FC = () => {
