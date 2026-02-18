@@ -38,13 +38,13 @@ const Team: React.FC = () => {
 
                         <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden border-[6px] border-white shadow-xl mb-10 relative z-10 transform transition-transform duration-700 group-hover:scale-105">
                             <img
-                                src="https://placehold.co/400x400/pink/white?text=Artist"
-                                alt="Artist"
+                                src="https://placehold.co/400x400/pink/white?text=H"
+                                alt="H"
                                 className="w-full h-full object-cover"
                             />
                         </div>
                         <div className="relative z-10">
-                            <h3 className="text-3xl md:text-4xl font-playfair text-gray-800 mb-2">Your Name</h3>
+                            <h3 className="text-3xl md:text-4xl font-playfair text-gray-800 mb-2">Harsadha R</h3>
                             <p className="text-pink-500 font-dancing text-2xl md:text-3xl mb-8">Lead Artist & Creator</p>
                             <p className="font-poppins text-gray-600 text-lg leading-relaxed italic">
                                 "Pouring my heart into every sketch, hoping to bring a smile to your face."

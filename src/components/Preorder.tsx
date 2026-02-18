@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { AlertCircle } from 'lucide-react';
+import img1 from "../assets/images/photos3.jpeg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -66,7 +67,7 @@ const Preorder: React.FC = () => {
                     <div ref={imageRef} className="w-full md:w-1/2 max-w-lg transform hover:scale-105 transition-transform duration-500">
                         <div className="bg-white p-6 pb-20 shadow-2xl rotate-[-2deg] hover:rotate-0 transition-transform duration-500 rounded-sm border border-gray-100">
                             <img
-                                src="https://placehold.co/300x800/pink/white?text=Photostrip+Example"
+                                src={img1}
                                 alt="Photostrip"
                                 className="w-full h-auto filter sepia-[.2]"
                             />
