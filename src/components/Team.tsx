@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import img1 from '../assets/images/Harsadha.jpeg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -38,7 +39,7 @@ const Team: React.FC = () => {
 
                         <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden border-[6px] border-white shadow-xl mb-10 relative z-10 transform transition-transform duration-700 group-hover:scale-105">
                             <img
-                                src="https://placehold.co/400x400/pink/white?text=H"
+                                src={img1}
                                 alt="H"
                                 className="w-full h-full object-cover"
                             />

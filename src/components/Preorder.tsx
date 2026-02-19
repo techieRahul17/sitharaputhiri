@@ -81,7 +81,7 @@ const Preorder: React.FC = () => {
                             Customize with 3-4 of your favorite photos.
                         </p>
                         <button className="group relative bg-pink-500 text-white px-12 py-5 rounded-full font-bold text-lg tracking-wide shadow-xl hover:shadow-pink-300/50 transition-all duration-300 overflow-hidden">
-                            <span className="relative z-10 group-hover:scale-105 inline-block transition-transform">Preorder Now</span>
+                            <a href="https://wa.me/9840702348"><span className="relative z-10 group-hover:scale-105 inline-block transition-transform">Preorder Now</span></a>
                             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
                         </button>
                     </div>

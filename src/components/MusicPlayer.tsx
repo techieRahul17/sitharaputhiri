@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Music, Volume2 } from 'lucide-react';
-import bgMusic from '../assets/music/sitharaputhiri.mp3';
+import bgMusic from '../assets/music/Song.mp3';
 
 const MusicPlayer: React.FC = () => {
     const [isPlaying, setIsPlaying] = useState(false);
@@ -24,9 +24,7 @@ const MusicPlayer: React.FC = () => {
 
     return (
         <div className="fixed bottom-5 right-5 z-50">
-            <audio ref={audioRef} loop>
-                <source src={bgMusic} type="audio/mpeg" />
-            </audio>
+            <audio ref={audioRef} loop src={bgMusic} onError={(e) => console.error("Audio error:", e)} />
             <button
                 onClick={togglePlay}
                 className="bg-white/80 backdrop-blur-md p-3 rounded-full shadow-lg hover:bg-pink-100 transition-all duration-300 border border-pink-200 group"
