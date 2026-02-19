@@ -37,27 +37,21 @@ const Footer: React.FC = () => {
                     <p className="footer-content text-gray-500 mb-12 font-poppins text-lg max-w-2xl mx-auto">Follow us for daily doodles, behind the scenes, and updates! We love seeing our art in your homes.</p>
 
                     <div className="footer-content flex flex-col md:flex-row justify-center items-center gap-6 mb-16">
-                        <a href="#" className="group flex items-center gap-3 bg-pink-500 text-white px-8 py-4 rounded-full shadow-lg shadow-pink-200 hover:shadow-xl hover:shadow-pink-300 transition-all duration-300 transform hover:-translate-y-1 w-64 justify-center">
+                        <a href="https://www.instagram.com/_sithira_puthiri_?igsh=MW5tdnBoejJrYjRiaA==" className="group flex items-center gap-3 bg-pink-500 text-white px-8 py-4 rounded-full shadow-lg shadow-pink-200 hover:shadow-xl hover:shadow-pink-300 transition-all duration-300 transform hover:-translate-y-1 w-64 justify-center">
                             <Instagram size={22} className="group-hover:rotate-12 transition-transform" />
                             <span className="font-medium tracking-wide">Instagram</span>
                         </a>
-                        <a href="#" className="group flex items-center gap-3 bg-[#25D366] text-white px-8 py-4 rounded-full shadow-lg shadow-green-200 hover:shadow-xl hover:shadow-green-300 transition-all duration-300 transform hover:-translate-y-1 w-64 justify-center">
+                        <a href="https://wa.me/9840702348" className="group flex items-center gap-3 bg-[#25D366] text-white px-8 py-4 rounded-full shadow-lg shadow-green-200 hover:shadow-xl hover:shadow-green-300 transition-all duration-300 transform hover:-translate-y-1 w-64 justify-center">
                             <Phone size={22} className="group-hover:rotate-12 transition-transform" />
                             <span className="font-medium tracking-wide">WhatsApp</span>
                         </a>
                     </div>
-
-                    <div className="footer-content">
-                        <button className="relative cursor-pointer group bg-white border-2 border-pink-400 text-pink-500 px-12 py-4 rounded-full font-bold tracking-widest hover:bg-pink-400 hover:text-white transition-all duration-300 shadow-sm hover:shadow-lg">
-                            PREORDER NOW
-                        </button>
-                    </div>
                 </div>
 
                 <div className="footer-content border-t border-gray-100 pt-10 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm font-poppins gap-4">
-                    <p>&copy; 2026 Sitharaputhiri. All rights reserved.</p>
+                    <p>&copy; 2026 Sitharaputhiri's Mela</p>
                     <p className="flex items-center justify-center gap-2">
-                        Made with <Heart size={16} className="text-red-400 fill-current animate-pulse" /> for Mela 2026
+                        Designed and Developed by <span className="text-pink-500 font-bold">Sitharaputhiri</span>
                     </p>
                 </div>
             </div>
