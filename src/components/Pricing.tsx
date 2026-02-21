@@ -87,13 +87,9 @@ const Pricing: React.FC = () => {
                                 ))}
                             </ul>
 
-                            <button className={`
-                                w-full py-4 rounded-xl font-bold tracking-wide transition-all duration-300
-                                ${plan.featured
-                                    ? 'bg-pink-500 text-white shadow-lg shadow-pink-200 hover:shadow-xl hover:shadow-pink-300 hover:scale-105'
-                                    : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-200 hover:border-pink-200'}
-                            `}>
-                                {plan.price.includes('DM') ? 'Enquire Now' : 'Add to Cart'}
+                            <button className="group relative bg-pink-500 text-white px-12 py-5 rounded-full font-bold text-lg tracking-wide shadow-xl hover:shadow-pink-300/50 transition-all duration-300 overflow-hidden">
+                                <a href="https://wa.me/9840702348"><span className="relative z-10 group-hover:scale-105 inline-block transition-transform">Preorder Now</span></a>
+                                <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
                             </button>
                         </div>
                     ))}
