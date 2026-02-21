@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { Instagram, Phone, Heart } from 'lucide-react';
+import { Instagram, Phone } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
