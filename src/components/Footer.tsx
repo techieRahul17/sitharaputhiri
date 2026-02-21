@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
                     <p className="footer-content text-gray-500 mb-12 font-poppins text-lg max-w-2xl mx-auto">Follow us for daily doodles, behind the scenes, and updates! We love seeing our art in your homes.</p>
 
                     <div className="footer-content flex flex-col md:flex-row justify-center items-center gap-6 mb-16">
-                        <a href="https://www.instagram.com/_sithira_puthiri_?igsh=MW5tdnBoejJrYjRiaA==" className="group flex items-center gap-3 bg-pink-500 text-white px-8 py-4 rounded-full shadow-lg shadow-pink-200 hover:shadow-xl hover:shadow-pink-300 transition-all duration-300 transform hover:-translate-y-1 w-64 justify-center">
+                        <a href="https://www.instagram.com/_sithira_puthiri_" className="group flex items-center gap-3 bg-pink-500 text-white px-8 py-4 rounded-full shadow-lg shadow-pink-200 hover:shadow-xl hover:shadow-pink-300 transition-all duration-300 transform hover:-translate-y-1 w-64 justify-center">
                             <Instagram size={22} className="group-hover:rotate-12 transition-transform" />
                             <span className="font-medium tracking-wide">Instagram</span>
                         </a>
