@@ -12,9 +12,9 @@ gsap.registerPlugin(ScrollTrigger);
 const products = [
     { id: 1, title: 'Postcard Doodles', price: '₹85', img: img1, type: 'postcard' },
     { id: 2, title: 'Couple Doodles', price: 'Custom', img: img2, type: 'custom' },
-    { id: 3, title: 'Landscape', price: '₹85', img: img3, type: 'postcard' },
+    { id: 3, title: 'Doodles', price: '₹85', img: img3, type: 'postcard' },
     { id: 4, title: 'Bookmark Style', price: 'Coming Soon', img: img4, type: 'bookmark' },
-    { id: 5, title: 'Abstract Pink', price: '₹85', img: photos, type: 'postcard' },
+    { id: 5, title: 'Aesthetic', price: '₹85', img: photos, type: 'postcard' },
     { id: 6, title: 'Floral', price: '₹85', img: photos2, type: 'postcard' },
 ];
 
@@ -62,7 +62,7 @@ const Gallery: React.FC = () => {
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
                                 <h3 className="text-white font-playfair text-2xl translate-y-8 group-hover:translate-y-0 transition-transform duration-500">{item.title}</h3>
-                                <p className="text-pink-300 font-poppins font-medium mt-1 translate-y-8 group-hover:translate-y-0 transition-transform duration-500 delay-75">{item.price}</p>
+
                                 {item.type === 'bookmark' && (
                                     <span className="absolute top-6 right-6 bg-white/20 backdrop-blur-md text-white text-xs px-3 py-1.5 rounded-full uppercase tracking-wider font-bold">Coming Soon</span>
                                 )}

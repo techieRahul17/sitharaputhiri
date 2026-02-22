@@ -11,8 +11,8 @@ const Pricing: React.FC = () => {
     const plans = [
         {
             name: "Postcard Doodles",
-            price: "₹85",
-            features: ["High quality cardstock", "Hand-drawn designs", "Perfect for gifting"],
+            price: "₹60+",
+            features: ["1 person - ₹60", "2 ppl - ₹90", "3 ppl - ₹130"],
             color: "from-pink-100 to-white"
         },
         {
